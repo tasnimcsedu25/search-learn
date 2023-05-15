@@ -6,7 +6,7 @@ import {useLocation} from "react-router-dom";
 
 const CoursesCard = () => {
   const {data, loading, error, reFetch} = useFetch(
-    "/_next/data/xvBueWQUQDU0vQ_MVeBNu/bn/courses.json?courseType=courses"
+    "/_next/data/vWdOYfeNsYzj9zb3Ka5IY/bn/courses.json?courseType=courses"
   );
   const [courses, setCourses] = useState([]);
   const [isAsc, setIsAsc] = useState();
